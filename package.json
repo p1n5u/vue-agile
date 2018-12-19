@@ -23,7 +23,8 @@
     "dev": "node build/dev-server.js",
     "bundle": "webpack --config build/webpack.bundle.conf.js",
     "docs": "rm -rf docs && mkdir docs && node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "install": "npm run bundle"
   },
   "dependencies": {
     "vue": "2.*.*"
